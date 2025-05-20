@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Salony | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">Salony</div>
+    <nav>
+      <ul>
+        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+        <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+        <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li><button id="modeToggle" title="Toggle Dark Mode"><i class="fas fa-moon"></i></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="home-flex">
+
+
+  <div class="home-text">
+    <h1>Hi, I'm Salony</h1>
+    <h2>A Software Developer</h2>
+    <p>I love building modern, responsive web applications with great user experience. Currently exploring full-stack tools and working on real-world software projects.</p>
+    <div class="buttons">
+      <a href="Salony_Resume.pdf" download class="btn">Download Resume</a>
+      <a href="#contact" class="btn outline">Contact Me</a>
+    </div>
+  </div>
+    <div class="home-image">
+  <div class="image-wrapper">
+    <img src="salony.jpg" alt="Salony" class="hero-img" />
+    <div class="blob-background"></div>
+  </div>
+</div>
+</section>
+
+
+  <section id="about" class="colored-section">
+    <h2>About <span>Me</span></h2>
+    <div class="about-content">
+      <img src="salony.jpg" alt="Salony photo" class="about-img">
+      <div>
+        <h3>Software Developer & Tech Enthusiast</h3>
+        <p>I'm a final-year Computer Science student at Chandigarh University, passionate about creating seamless digital experiences. I have a knack for building modern, responsive websites and enjoy working on challenging projects that drive innovation. With a blend of problem-solving, collaboration, and technical skills, I'm constantly learning and growing.</p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+  <h2>My Skills</h2>
+  <p class="subtitle">Things I use to build beautiful and efficient web solutions</p>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <i class="fab fa-html5"></i>
+      <h3>HTML</h3>
+      <p>Semantic, accessible, and SEO-friendly structure.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-css3-alt"></i>
+      <h3>CSS</h3>
+      <p>Crafting responsive and modern layouts.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-js-square"></i>
+      <h3>JavaScript</h3>
+      <p>Adding life and logic to web applications.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-python"></i>
+      <h3>Python</h3>
+      <p>Backend logic, data scripting, and automation.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fab fa-react"></i>
+      <h3>React</h3>
+      <p>Reusable component-driven user interfaces.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-database"></i>
+      <h3>SQL</h3>
+      <p>Efficient data management and querying.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-code"></i>
+      <h3>C++</h3>
+      <p>Powerful logic and DSA fundamentals.</p>
+    </div>
+    <div class="skill-card">
+      <i class="fas fa-file-excel"></i>
+      <h3>Excel</h3>
+      <p>Smart data analysis and visualization.</p>
+    </div>
+  </div>
+</section>
+
+
+  <section id="projects">
+  <h2>Projects</h2>
+  <div class="projects-wrapper">
+
+    <div class="project-card">
+    <div class="project-inner">
+      <div class="project-front">
+        <img src="dental.png" alt="Dental Care Website">
+        <h3>Dental Care Website</h3>
+      </div>
+      <div class="project-back">
+        <p>Responsive front-end dental care site using HTML, CSS, and JavaScript. Ensures a seamless user experience across devices.</p>
+      </div>
+    </div>
+  </div>
+
+    <div class="project-card">
+      <div class="project-inner">
+        <div class="project-front">
+          <img src="react-app.png" alt="Daily News React App">
+          <h3>Daily News React App</h3>
+        </div>
+        <div class="project-back">
+          <p>News app providing real-time updates across categories like sports, politics, and technology. Built with React.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <div class="project-inner">
+        <div class="project-front">
+          <img src="budget.png" alt="Budget Buddy">
+          <h3>Budget Buddy</h3>
+        </div>
+        <div class="project-back">
+          <p>Helps students manage their finances using ML insights. Tracks expenses and offers budget suggestions.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="contact" class="colored-section">
+    <h2>Contact Me</h2>
+    <form action="mailto:salonygarg2609@gamil.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Salony | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
